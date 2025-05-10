@@ -48,3 +48,49 @@ git remote add origin <-link->
 git remote-v (to verigy remote)
 git branch -M main (to rename branch)
 git push origin main
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git init
+Initialized empty Git repository in /Users/sanjaykumarshantilal/Documents/github/LocalRepo/.git/
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % ls -a
+. .. .git
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git status
+On branch master
+
+        No commits yet
+
+        Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+
+                index.html
+                style.css
+
+        nothing added to commit but untracked files present (use "git add" to track)
+
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git commit -m "Add Initial Files"
+[master (root-commit) f811a09] Add Initial Files
+2 files changed, 4 insertions(+)
+create mode 100644 index.html
+create mode 100644 style.css
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git status
+On branch master
+nothing to commit, working tree clean
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % get remote add origin https://github.com/sanjaygamit/localrepo.git
+zsh: command not found: get
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git remote add origin https://github.com/sanjaygamit/localrepo.git
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git remote -v
+origin https://github.com/sanjaygamit/localrepo.git (fetch)
+origin https://github.com/sanjaygamit/localrepo.git (push)
+(base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git branch
+
+- master
+  (base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git branch -M main
+  (base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git branch
+- main
+  (base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo % git push origin main
+  Counting objects: 4, done.
+  Delta compression using up to 8 threads.
+  Compressing objects: 100% (2/2), done.
+  Writing objects: 100% (4/4), 310 bytes | 310.00 KiB/s, done.
+  Total 4 (delta 0), reused 0 (delta 0)
+  To https://github.com/sanjaygamit/localrepo.git
+- [new branch] main -> main
+  (base) sanjaykumarshantilal@SanjaykumarsAir LocalRepo %
