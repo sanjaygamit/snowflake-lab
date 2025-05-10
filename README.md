@@ -1,4 +1,5 @@
 # snowflake-lab
-This is my snowflake training. 
+
+This is my snowflake training.
 <br>
-Author - sanjay gamit 
+Author - sanjay gamit(snowflake-lab)
